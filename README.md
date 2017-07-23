@@ -2,6 +2,8 @@
 
 ## Download
 
+Download the [zip file](https://github.com/kinnamonb/PortfolioPage/archive/master.zip)
+
 ## Requirements
 
 * A web browser ([Chrome](https://www.google.com/chrome/), [Firefox](https://www.mozilla.org/en-US/firefox/), [Opera](http://www.opera.com/))
@@ -9,6 +11,19 @@
 ## Usage
 
 After extracting the files, open `index.html` in your favorite browser.
+
+## Tasks
+
+* Setup meta tags to support mobile browsers
+* Add accessibility information
+* Design a personal logo
+* Choose a cover image
+* Choose images for project links
+* Create CSS for phones
+* Create CSS for tablets
+* Create CSS for desktop
+* Write a description for each project
+* Choose a color scheme
 
 ## License
 

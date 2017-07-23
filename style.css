@@ -1,0 +1,42 @@
+.page {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: right;
+}
+
+.subhead {
+  text-align: right;
+}
+
+h2 {
+  text-align: center;
+}
+
+.portfolio-item {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  margin-right: 20px;
+}
+
+.movie-list-img {
+  display: block;
+  background-image: url('http://via.placeholder.com/320x200');
+  width: 320px;
+  height: 200px;
+}
+
+.project-img {
+  display: inline-block;
+  background-image: url('http://via.placeholder.com/320x200');
+  width: 320px;
+  height: 200px;
+}
+
+.project-link {
+  display: block;
+  text-align: center;
+}

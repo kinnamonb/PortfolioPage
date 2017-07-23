@@ -14,7 +14,6 @@ After extracting the files, open `index.html` in your favorite browser.
 
 ## Tasks
 
-* Setup meta tags to support mobile browsers
 * Add accessibility information
 * Design a personal logo
 * Choose a cover image
@@ -24,6 +23,10 @@ After extracting the files, open `index.html` in your favorite browser.
 * Create CSS for desktop
 * Write a description for each project
 * Choose a color scheme
+
+## Known Issues
+
+* The layout of the header and portfolio-item's are being funky.
 
 ## License
 

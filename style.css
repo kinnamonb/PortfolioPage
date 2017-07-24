@@ -1,42 +1,89 @@
+
+
+/* Fonts
+font-family: 'Special Elite', cursive;
+font-family: 'Josefin Slab', serif;
+font-family: 'Open Sans Condensed', sans-serif;
+*/
+
 .page {
-  width: 1000px;
+  width: 80%;
   margin: 0 auto;
 }
 
+header {
+  margin-bottom: 4em;
+}
+
 h1 {
+  font-family: 'Josefin Slab', serif;
+  font-size: 4em;
   text-align: right;
+  margin-top: 1em;
 }
 
 .subhead {
+  font-family: 'Special Elite', cursive;
+  font-size: 1.5em;
   text-align: right;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #000000;
+  margin-bottom: 0.5em;
+}
+
+.header-img {
+  display: inline-block;
+  background-image: url('./img/sunflower.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
 }
 
 h2 {
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.75em;
   text-align: center;
+  color: #000000;
+  margin-top: 0.25em;
 }
 
 .portfolio-item {
   display: inline-block;
-  margin: 0;
-  padding: 0;
-  margin-right: 20px;
+  width: 33%;
+  text-align: center;
+}
+
+.portfolio-item a {
+  text-decoration: none;
 }
 
 .movie-list-img {
-  display: block;
-  background-image: url('http://via.placeholder.com/320x200');
-  width: 320px;
+  display: inline-block;
+  background-image: url('http://via.placeholder.com/200x200');
+  width: 200px;
   height: 200px;
 }
 
 .project-img {
   display: inline-block;
-  background-image: url('http://via.placeholder.com/320x200');
-  width: 320px;
+  background-image: url('http://via.placeholder.com/200x200');
+  width: 200px;
   height: 200px;
 }
 
-.project-link {
-  display: block;
-  text-align: center;
+.project-url {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-decoration: underline;
+}
+
+footer {
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }

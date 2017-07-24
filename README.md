@@ -16,7 +16,6 @@ After extracting the files, open `index.html` in your favorite browser.
 
 * Add accessibility information
 * Design a personal logo
-* Choose a cover image
 * Choose images for project links
 * Create CSS for phones
 * Create CSS for tablets
@@ -25,8 +24,6 @@ After extracting the files, open `index.html` in your favorite browser.
 * Choose a color scheme
 
 ## Known Issues
-
-* The layout of the header and portfolio-item's are being funky.
 
 ## License
 

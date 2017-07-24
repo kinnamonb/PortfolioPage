@@ -60,14 +60,27 @@ h2 {
 
 .movie-list-img {
   display: inline-block;
-  background-image: url('http://via.placeholder.com/200x200');
+  background-image: url('./img/movie-list.png');
+  background-position: center center;
+  background-repeat: no-repeat;
   width: 200px;
   height: 200px;
 }
 
-.project-img {
+.item-list-img {
   display: inline-block;
-  background-image: url('http://via.placeholder.com/200x200');
+  background-image: url('./img/item-list-200.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+}
+
+.map-img {
+  display: inline-block;
+  background-image: url('./img/map.png');
+  background-position: center center;
+  background-repeat: no-repeat;
   width: 200px;
   height: 200px;
 }
@@ -79,7 +92,7 @@ h2 {
 
 footer {
   font-family: 'Open Sans Condensed', sans-serif;
-  margin-top: 3em;
+  margin-top: 6em;
   margin-bottom: 1em;
 }
 

@@ -12,19 +12,6 @@ Download the [zip file](https://github.com/kinnamonb/PortfolioPage/archive/maste
 
 After extracting the files, open `index.html` in your favorite browser.
 
-## Tasks
-
-* Add accessibility information
-* Design a personal logo
-* Choose images for project links
-* Create CSS for phones
-* Create CSS for tablets
-* Create CSS for desktop
-* Write a description for each project
-* Choose a color scheme
-
-## Known Issues
-
 ## License
 
 Copyright 2017 Brett Kinnamon

@@ -1,14 +1,13 @@
 
 
 /* Fonts
-font-family: 'Special Elite', cursive;
-font-family: 'Josefin Slab', serif;
-font-family: 'Open Sans Condensed', sans-serif;
+font-family: "Special Elite", cursive;
+font-family: "Josefin Slab", serif;
+font-family: "Open Sans Condensed", sans-serif;
 */
 
 .page {
   width: 80%;
-  min-width: 320px;
   margin: 0 auto;
 }
 
@@ -17,14 +16,14 @@ header {
 }
 
 h1 {
-  font-family: 'Josefin Slab', serif;
+  font-family: "Josefin Slab", serif;
   font-size: 4em;
   text-align: right;
   margin-top: 1em;
 }
 
 .subhead {
-  font-family: 'Special Elite', cursive;
+  font-family: "Special Elite", cursive;
   font-size: 1.5em;
   text-align: right;
   padding-bottom: 0.5em;
@@ -33,8 +32,8 @@ h1 {
 }
 
 .header-img {
-  display: inline-block;
-  background-image: url('./img/sunflower.jpg');
+  display: block;
+  background-image: url(./img/sunflower.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   width: 100%;
@@ -42,51 +41,48 @@ h1 {
 }
 
 h2 {
-  font-family: 'Josefin Slab', serif;
+  font-family: "Josefin Slab", serif;
   font-size: 1.75em;
   text-align: center;
   color: #000000;
   margin-top: 0.25em;
 }
 
-.portfolio-item {
-  display: inline-block;
-  width: 33%;
+.flex-grid {
+  display: flex;
+  justify-content: space-around;
   text-align: center;
 }
 
-.portfolio-item a {
+.col {
+  flex: 1;
+  flex-basis: max-content;
+  text-align: center;
+}
+
+.project-url {
   text-decoration: none;
 }
 
 .project-img {
-  display: inline-block;
-  background-position: center center;
-  background-repeat: no-repeat;
-  width: 100%;
-}
-
-.movie-list-img {
-  background-image: url('./img/movie-list.png');
-}
-
-.item-list-img {
-  background-image: url('./img/item-list-200.png');
-}
-
-.map-img {
-  background-image: url('./img/map.png');
+  width: 200;
+  height: auto;
 }
 
 .project-url {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   text-decoration: underline;
 }
 
 footer {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   margin-top: 6em;
   margin-bottom: 1em;
+  position: relative;
+}
+
+.social-links {
+  text-align: center;
 }
 
 p {
@@ -97,16 +93,10 @@ p {
 
 /* Screen size overrides */
 
-@media screen and (max-width: 1000px) {
-  .portfolio-item {
-    display: block;
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
   .page {
     width: 100%;
+    min-width: 320px;
   }
 
   .header-text {
@@ -124,5 +114,13 @@ p {
 
   .subhead {
     border: none;
+  }
+
+  .flex-grid {
+    display: block;
+  }
+
+  .col {
+    width: auto;
   }
 }

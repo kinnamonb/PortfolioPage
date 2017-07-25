@@ -6,7 +6,7 @@ font-family: "Josefin Slab", serif;
 font-family: "Open Sans Condensed", sans-serif;
 */
 
-.page {
+main {
   width: 80%;
   margin: 0 auto;
 }
@@ -33,7 +33,7 @@ h1 {
 
 .header-img {
   display: block;
-  background-image: url(./img/sunflower.jpg);
+  background-image: url(../img/sunflower.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   width: 100%;
@@ -48,20 +48,20 @@ h2 {
   margin-top: 0.25em;
 }
 
+a {
+  text-decoration: none;
+}
+
 .flex-grid {
   display: flex;
   justify-content: space-around;
   text-align: center;
 }
 
-.col {
+article {
   flex: 1;
   flex-basis: max-content;
   text-align: center;
-}
-
-.project-url {
-  text-decoration: none;
 }
 
 .project-img {
@@ -71,7 +71,6 @@ h2 {
 
 .project-url {
   font-family: "Open Sans Condensed", sans-serif;
-  text-decoration: underline;
 }
 
 footer {
@@ -94,7 +93,7 @@ p {
 /* Screen size overrides */
 
 @media screen and (max-width: 600px) {
-  .page {
+  main {
     width: 100%;
     min-width: 320px;
   }
@@ -105,7 +104,6 @@ p {
     background: rgba(255, 255, 255, 0.75);
     width: 100%;
     min-width: 320px;
-    padding-right: 0.5em;
   }
 
   h1 {
@@ -117,10 +115,10 @@ p {
   }
 
   .flex-grid {
-    display: block;
+    flex-direction: column;
   }
 
-  .col {
+  article {
     width: auto;
   }
 }
